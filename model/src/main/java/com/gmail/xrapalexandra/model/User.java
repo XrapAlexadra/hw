@@ -51,4 +51,13 @@ public class User {
     public int hashCode() {
         return Objects.hash(pass, role, login);
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "pass='" + pass + '\'' +
+                ", role=" + role +
+                ", login='" + login + '\'' +
+                '}';
+    }
 }
