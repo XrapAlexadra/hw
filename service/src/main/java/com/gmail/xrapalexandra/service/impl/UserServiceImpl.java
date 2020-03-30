@@ -56,4 +56,8 @@ public class UserServiceImpl implements UserService {
     public User delUserFromRepository(String login) {
         return authUser.delUserByLogin(login);
     }
+
+    private void NothingToDo(){
+
+    }
 }
