@@ -11,7 +11,7 @@
     <br>
 </c:if>
 <form  method="post" action="${pageContext.request.contextPath}/login">
-    <fieldset>
+    <fieldset style="width: 45px">
         <legend>Вход</legend>
         <label>
             <input type="text" name="login" size="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" placeholder="Логин" required >
@@ -20,6 +20,7 @@
         <label>
             <input type="password" name="pass" size="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" placeholder="Пароль" autocomplete="off" required >
         </label>
+        <br>
         <input type="submit" value="Отправить">
     </fieldset>
 </form>
